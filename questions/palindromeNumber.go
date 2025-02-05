@@ -1,10 +1,10 @@
-package main
+package questions
 
 import (
 	"strconv"
 )
 
-func isPalindrome(x int) bool {
+func IsPalindrome(x int) bool {
 	if x < 0 {
 		return false
 	}

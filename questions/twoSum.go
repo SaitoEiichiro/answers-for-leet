@@ -1,6 +1,6 @@
-package main
+package questions
 
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	ans := make([]int, 2)
 	for i := range nums {
 		for k := range nums {

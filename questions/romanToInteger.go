@@ -1,4 +1,4 @@
-package main
+package questions
 
 // func romanToInt(s string) int {
 // 	ans := 0
@@ -61,7 +61,7 @@ package main
 // 	return ans
 // }
 
-func romanToInt(s string) int {
+func RomanToInt(s string) int {
 	romanMap := map[rune]int{
 		'I': 1,
 		'V': 5,
